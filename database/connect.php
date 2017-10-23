@@ -6,7 +6,7 @@
 	try{
 
 	// A changer : dbname=nomDeVotreBaseDeDonnées
-	$bdd = new PDO("mysql:host=$dbhost;dbname=entre-vues;charset=utf8", $dbuser, $dbpass);
+	$bdd = new PDO("mysql:host=$dbhost;dbname=$dbname;charset=utf8", $dbuser, $dbpass);
 	}
 	// On traite l'erreur (ex probleme de mot de passe, php rsique d'afficher
 	// toute la ligne. Pour éviter ce problème : )
@@ -18,6 +18,7 @@
 	// SELECT = prend moi; * = tout ;FROM = de quel tableau ? film = mettreLeNomDeVotreTable
 	
 	$tabPDF = $bdd->query('SELECT * FROM pdfs LIMIT 10' );
+	$imgGalerie = $bdd->query('SELECT * FROM photos LIMIT 50');
 
 
 ?>

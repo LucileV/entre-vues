@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Mediatheque</title>
+    <title>Entre-vues, la librairie PDF gratuite</title>
      <link rel="stylesheet" href="../../public/asset/css/normalize.css">
   <!-- Custom styles for this template -->
 
@@ -26,7 +26,7 @@
       <a href="../../app/models/index.php"><img src="../../public/asset/images/logo2.jpg" alt="" class="logo"></a>
         <ul id="navigation">
           <li><a href="../../app/models/bibliotheque_PDF.php">Médiathèque PDF</a></li>
-          <li><a href="#">Galerie Photos</a></li>
+          <li><a href="../../app/models/galerie_photos.php">Galerie Photos</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
           <a href="#">Fr</a> - <a href="#">En</a>

@@ -19,12 +19,14 @@ body {
 	line-height: 25px;
 	//background-image: url("../images/background.jpg");
 	background-color: #cccccc;
+	
 }
 
 
 .container {
 	margin: auto;
 	display: flex;
+	overflow: scroll;
 
 
 }
@@ -53,9 +55,8 @@ nav {
 	background-color: #C7E200;;
 	width: 100%;
 	display: block;
-	padding-left: 20px;
-	padding-right: 20px;
-	position:relative;
+	
+	//position:relative;
 
 
 
@@ -224,7 +225,7 @@ h1 {
 
 h2 {
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 22px;
 	color: #CA0300;
 	margin-bottom: 15px;
 
@@ -234,10 +235,11 @@ h2 {
 
 
 .cover {
-	background-image: url("http://media.gettyimages.com/photos/establishing-protocols-that-will-ensure-success-picture-id516946501");
+	background-image: url("http://www.jeaconf.org/UploadedFiles/Images/20f44e77-c215-442d-a832-4efee7649bd1.jpg");
 	width: 100%;
 	height: 170px;
 	padding-top: 250px;
+	background-size: cover;
 	
 	
 	
@@ -280,4 +282,31 @@ hr {
 //
 input {
 	  padding: 10px 35px 10px 35px;
+}
+
+.photo {
+
+	padding: 10px;
+	margin:  10px;
+	-webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+	border 1px red solid;
+	float: left;
+	background-color: #FFF;
+	font-size: 13px;
+
+
+}
+
+.titre_photo {
+	color: black;
+	font-weight: bold;
+
+}
+
+.titre_photo {
+	color: black;
+	font-weight: bold;
+
 }
