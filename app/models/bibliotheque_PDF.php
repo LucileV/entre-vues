@@ -25,7 +25,7 @@
 					<tr>
 				       <td>
 				       	
-				       	<h3><a href="<?php echo $donnees['pdf_titre']; ?>"><?php echo $donnees['pdf_titre']; ?></a></h3>
+				       	<h3><a href="<?php echo $donnees['pdf_url_pdf']; ?> " target="blank"><?php echo $donnees['pdf_titre']; ?></a></h3>
 				       </td>
 				       <td width="40%"><?php echo $donnees['pdf_resume']; ?></td>
 				       <td ><?php echo $donnees['pdf_langue']; ?></td>

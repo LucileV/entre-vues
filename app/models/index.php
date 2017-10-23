@@ -1,7 +1,7 @@
 <?php include '../views/parts/header.php' ?>
 
 <div class="cover"> 
-	<h1>La librairie PDF gratuite</h1>
+	<h1>La librairie <i class="fa fa-file-pdf-o " aria-hidden="true"></i> gratuite</h1>
 </div>
 
 <div class="container">
