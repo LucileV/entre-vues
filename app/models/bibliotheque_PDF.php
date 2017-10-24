@@ -18,7 +18,7 @@
 						<th>Téléchargement</th>
 				</tr>
 				<?php 
-					while ($donnees = $tabPDF->fetch())
+					while ($donnees = $tabPDF->fetch(PDO::FETCH_ASSOC))
 						{
 					// Je ferme php pour pouvoir mettre de l'html
 					 ?>

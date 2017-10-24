@@ -299,9 +299,9 @@ input {
 
 }
 
-.titre_photo {
-	color: black;
-	font-weight: bold;
+.photo img{
+	width: 150px;
+	height: 200px;
 
 }
 

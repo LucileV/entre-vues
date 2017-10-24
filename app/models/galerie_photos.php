@@ -10,12 +10,12 @@
 
 		
 				<?php 
-					while ($donnees = $imgGalerie->fetch())
+					while ($donnees = $imgGalerie->fetch(PDO::FETCH_ASSOC))
 						{
 					// Je ferme php pour pouvoir mettre de l'html
 					 ?>
 					 <div class="photo">
-						<a href=""><img src="../../public/asset/images/<?php echo $donnees['photo_url']; ?>" alt=""></a>
+						<a href="../../public/asset/images/<?php echo $donnees['photo_url']; ?>" target="blank"><img src="../../public/asset/images/<?php echo $donnees['photo_url']; ?>" alt=""></a>
 						<div class="titre_photo"><?php echo $donnees['photo_title']; ?> </div>
 						<div><?php echo $donnees['photo_download']; ?> téléchargement(s)</div>
 					</div>
